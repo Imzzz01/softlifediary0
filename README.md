@@ -1,1 +1,151 @@
 # softlifediary0
+Building and learning how to build a website!
+
+<!DOCTYPE html> <!-- This is a simple HTML document -->
+<html lang="en"> <!-- The root element; lang="en" tells the browser the page is in English  -->
+<head> <!-- This contains info about the webpage-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Life Diary ♡ </title> <!-- This is the title of the webpage -->
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+<body> <!-- This is the body of the webpage, it contains all the visible content -->
+    <h1>Welcome to Soft Life Diary</h1>
+    <p>This is a soft corner, for everyone who is struggling in silence.</p>
+    <h2> Morning Thoughts</h2>
+    <p> Just a few thoughts to start the day.</p>
+
+<a href="https://www.instagram.com">View on Instagram</a> href means a hypertext reference, it tells the browser where the link is!
+<a> is an anchor link element 
+<a href> text the user clicks
+
+Header 
+-H1
+-Introduction
+
+Main 
+--Section - H2 - Paragraph
+--Section - H2 - Paragraph
+
+Footer
+
+<div> Is a generic container which groups those elements
+
+<header>
+<h1>Welcome to Soft Life Diary</h1>
+    <p>This is a soft corner, for everyone who is struggling in silence.</p>
+    
+</header>
+    <main>
+        <section>
+            
+            <h2>Morning Thoughts</h2>
+            <p>Start your day with positive affirmations and set your intentions. Take a few moments to breathe deeply and center yourself before diving into the day's activities.</p>
+      <ul>
+        <li> Go on a walk </li> (unordered list)
+        <li> Breathe deeply </li>
+        <li> Practice gratitude </li>
+      </ul>
+            <a href="https://www.instagram.com">Follow soft life diary</a>
+    <img src="images/image.jpg" alt="Galaxy in hands"> Image holder
+    </section>
+        <section>
+          
+            <h2>Evening Reflections</h2>
+            <p>As the day comes to a close, take a moment to reflect on what went well and what you are grateful for. Let go of any negativity and prepare for a restful night.</p>
+  <a href="https://www.instagram.com">Read more</a>
+       
+     </section>
+        </main>
+
+<footer>
+    <p>© 2024 Soft Life Diary. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
+
+For CSS styling 
+
+<section class="diary-card"> Style everything with the diary-card class.
+
+.diary-card {
+
+}
+
+if your three sections have the same class "diary-card" or "diary-section" css could combine all three with the same styling.
+
+Class can be used multiple times | Class = A Group (TEAM)
+id identifies one specific element (INDIVIDUAL )
+Example:
+<h1 id="welcome">Welcome to Soft Life Diary</h1>
+
+Now we will add a button to the link 
+<a class="instagram-button" href="">
+follow soft life diary
+</a>
+
+ <nav class="Nav-bar">
+        <a href="index.html">Home</a>
+        <a href="diary.html">Diary</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="products.html">Products</a>
+        
+    </nav>
+
+    <!DOCTYPE html> <!-- This is a simple HTML document -->
+<html lang="en"> <!-- The root element; lang="en" tells the browser the page is in English  -->
+<head> <!-- This contains info about the webpage-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Life Diary ♡ </title> <!-- This is the title of the webpage -->
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+<body> <!-- This is the body of the webpage, it contains all the visible content -->
+    
+<header>
+<h1 id="welcome">Welcome to Soft Life Diary</h1>
+    <p>This is a soft corner, for everyone who is struggling in silence.</p>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="diary.html">Diary</a>
+        <a href="contact.html">Contact</a>
+        
+    </nav>
+</header>
+    <main>
+        
+     <section class="diary-section"> 
+            <h2>Morning Thoughts</h2>
+            <p>Start your day with positive affirmations and set your intentions. Take a few moments to breathe deeply and center yourself before diving into the day's activities.</p>
+      <ul>
+        <li> Go on a walk </li>
+        <li> Breathe deeply </li>
+        <li> Practice gratitude </li>
+      </ul>
+
+   
+            <a href="https://www.instagram.com">Follow soft life diary</a>
+    <img src="images/image.jpg" alt="Galaxy in hands">
+    </section>
+        <section>
+          
+            <h2>Evening Reflections</h2>
+            <p>As the day comes to a close, take a moment to reflect on what went well and what you are grateful for. Let go of any negativity and prepare for a restful night.</p>
+  <a href="https://www.instagram.com">Read more</a>
+       
+     </section>
+        </main>
+
+<footer>
+    <p>© 2024 Soft Life Diary. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
